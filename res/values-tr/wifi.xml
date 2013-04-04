@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Bağlan"</string>
+    <string name="wifi_security">"Güvenlik"</string>
+    <string name="wifi_password">"Şifre"</string>
+    <string name="wifi_show_password">"Şifreyi göster"</string>
+    <string name="wifi_not_in_range">"Kapsama alanı dışında"</string>
+    <string name="wifi_wps_available_first_item">"WPS kullanılabilir"</string>
+    <string name="wifi_wps_available_second_item">" (WPS kullanılabilir)"</string>
+    <string name="wifi_secured_first_item">"Güvenliği <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> ile sağlanıyor"</string>
+    <string name="wifi_secured_second_item">", güvenliği <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> ile sağlanıyor"</string>
+    <string name="wifi_security_none">"Yok"</string>
+    <string name="wifi_disabled_generic">"Devre dışı"</string>
+    <string name="wifi_unchanged">"(değişmedi)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Taranıyor…"</item>
+        <item>"Bağlanıyor…"</item>
+        <item>"Kimlik doğrulanıyor…"</item>
+        <item>"IP adresi alınıyor\u2026"</item>
+        <item>"Bağlandı"</item>
+        <item>"Askıya alındı"</item>
+        <item>"Bağlantı kesiliyor…"</item>
+        <item>"Bağlantı kesildi"</item>
+        <item>"Başarısız"</item>
+        <item>"Engellendi"</item>
+        <item>"Kötü bağlantıdan geçici olarak kaçınılıyor"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Taranıyor…"</item>
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağına bağlanılıyor…"</item>
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> üzerinde kimlik doğrulanıyor…"</item>
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağından IP adresi alınıyor…"</item>
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> ağına bağlandı"</item>
+        <item>"Askıya alındı"</item>
+        <item>"<xliff:g id="NETWORK_NAME">%1$s</xliff:g> bağlantısı kesiliyor…"</item>
+        <item>"Bağlantı kesildi"</item>
+        <item>"Başarısız"</item>
+        <item>"Engellendi"</item>
+        <item>"Kötü bağlantıdan geçici olarak kaçınılıyor"</item>
+    </string-array>
+
+</resources>

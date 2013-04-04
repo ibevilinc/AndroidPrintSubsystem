@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Anslut"</string>
+    <string name="wifi_security">"Säkerhet"</string>
+    <string name="wifi_password">"Lösenord"</string>
+    <string name="wifi_show_password">"Visa lösenord"</string>
+    <string name="wifi_not_in_range">"Inte i intervall"</string>
+    <string name="wifi_wps_available_first_item">"WPS tillgängligt"</string>
+    <string name="wifi_wps_available_second_item">" (WPS tillgängligt)"</string>
+    <string name="wifi_secured_first_item">"Skyddad med <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_secured_second_item">", skyddad med <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_security_none">"Ingen"</string>
+    <string name="wifi_disabled_generic">"Inaktiverad"</string>
+    <string name="wifi_unchanged">"(oförändrat)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Skannar…"</item>
+        <item>"Ansluter…"</item>
+        <item>"Autentiserar…"</item>
+        <item>"Erhåller IP-adress…"</item>
+        <item>"Ansluten"</item>
+        <item>"Pausad"</item>
+        <item>"Kopplar ifrån…"</item>
+        <item>"Frånkopplad"</item>
+        <item>"Misslyckades"</item>
+        <item>"Blockerat"</item>
+        <item>"Undviker just nu dålig anslutning"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Skannar…"</item>
+        <item>"Ansluter till <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Autentiserar med <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Hämtar IP-adress från <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Ansluten till: <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+        <item>"Pausad"</item>
+        <item>"Kopplar ifrån <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Frånkopplad"</item>
+        <item>"Misslyckades"</item>
+        <item>"Blockerat"</item>
+        <item>"Undviker just nu dålig anslutning"</item>
+    </string-array>
+
+</resources>

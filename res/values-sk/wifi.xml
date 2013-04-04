@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Pripojiť"</string>
+    <string name="wifi_security">"Zabezpečenie"</string>
+    <string name="wifi_password">"Heslo"</string>
+    <string name="wifi_show_password">"Zobrazovať heslo"</string>
+    <string name="wifi_not_in_range">"Mimo dosah"</string>
+    <string name="wifi_wps_available_first_item">"WPS je k dispozícii"</string>
+    <string name="wifi_wps_available_second_item">" (WPS je k dispozícii)"</string>
+    <string name="wifi_secured_first_item">"Zabezpečenie: <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_secured_second_item">", zabezpečenie: <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_security_none">"Žiadne"</string>
+    <string name="wifi_disabled_generic">"Zakázané"</string>
+    <string name="wifi_unchanged">"(nezmenené)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Prebieha vyhľadávanie\u2026"</item>
+        <item>"Prebieha pripájanie…"</item>
+        <item>"Prebieha overovanie…"</item>
+        <item>"Prebieha načítanie adresy IP…"</item>
+        <item>"Pripojené"</item>
+        <item>"Pozastavená"</item>
+        <item>"Prebieha odpájanie\u2026"</item>
+        <item>"Odpojený"</item>
+        <item>"Neúspešné"</item>
+        <item>"Blokované"</item>
+        <item>"Dočasne bolo zabránené slabému pripojeniu"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Prebieha vyhľadávanie\u2026"</item>
+        <item>"Prebieha pripájanie k sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Prebieha overovanie v sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Prebieha získavanie adresy IP zo siete <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Pripojené k sieti <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+        <item>"Pozastavená"</item>
+        <item>"Prebieha odpájanie od siete <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Odpojený"</item>
+        <item>"Neúspešné"</item>
+        <item>"Blokované"</item>
+        <item>"Dočasne bolo zabránené slabému pripojeniu"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Σύνδεση"</string>
+    <string name="wifi_security">"Ασφάλεια"</string>
+    <string name="wifi_password">"Κωδικός πρόσβασης"</string>
+    <string name="wifi_show_password">"Εμφάνιση κωδικού πρόσβασης"</string>
+    <string name="wifi_not_in_range">"Εκτός εμβέλειας"</string>
+    <string name="wifi_wps_available_first_item">"Διαθέσιμο WPS"</string>
+    <string name="wifi_wps_available_second_item">" (Διαθέσιμο WPS)"</string>
+    <string name="wifi_secured_first_item">"Ασφαλισμένα με <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_secured_second_item">", ασφαλισμένο με <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_security_none">"Καμία"</string>
+    <string name="wifi_disabled_generic">"Απενεργοποιημένο"</string>
+    <string name="wifi_unchanged">"(δεν έγινε αλλαγή)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Σάρωση\u2026"</item>
+        <item>"Σύνδεση\u2026"</item>
+        <item>"Έλεγχος ταυτότητας\u2026"</item>
+        <item>"Λήψη διεύθυνσης IP…"</item>
+        <item>"Συνδεδεμένο"</item>
+        <item>"Σε αναστολή"</item>
+        <item>"Αποσύνδεση\u2026"</item>
+        <item>"Αποσυνδέθηκε"</item>
+        <item>"Ανεπιτυχής"</item>
+        <item>"Αποκλεισμένο"</item>
+        <item>"Προσωρινή αποφυγή αδύναμης σύνδεσης"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Σάρωση\u2026"</item>
+        <item>"Σύνδεση σε <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Έλεγχος ταυτότητας με <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Λήψη διεύθυνσης IP από <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Συνδεδεμένο σε <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+        <item>"Σε αναστολή"</item>
+        <item>"Αποσύνδεση από <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Αποσυνδέθηκε"</item>
+        <item>"Ανεπιτυχής"</item>
+        <item>"Αποκλεισμένο"</item>
+        <item>"Προσωρινή αποφυγή αδύναμης σύνδεσης"</item>
+    </string-array>
+
+</resources>

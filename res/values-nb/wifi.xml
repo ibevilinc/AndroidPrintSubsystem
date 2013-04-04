@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Koble til"</string>
+    <string name="wifi_security">"Sikkerhet"</string>
+    <string name="wifi_password">"Passord"</string>
+    <string name="wifi_show_password">"Vis passord"</string>
+    <string name="wifi_not_in_range">"Utenfor område"</string>
+    <string name="wifi_wps_available_first_item">"WPS tilgjengelig"</string>
+    <string name="wifi_wps_available_second_item">" (WPS tilgjengelig)"</string>
+    <string name="wifi_secured_first_item">"Sikret med <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_secured_second_item">", sikret med <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_security_none">"Ingen"</string>
+    <string name="wifi_disabled_generic">"Deaktivert"</string>
+    <string name="wifi_unchanged">"(uendret)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Skanner \u2026"</item>
+        <item>"Kobler til …"</item>
+        <item>"Autentiserer \u2026"</item>
+        <item>"Henter IP-adresse …"</item>
+        <item>"Tilkoblet"</item>
+        <item>"Avsluttet"</item>
+        <item>"Kobler fra \u2026"</item>
+        <item>"Frakoblet"</item>
+        <item>"Mislyktes"</item>
+        <item>"Blokkert"</item>
+        <item>"Unngår dårlig tilkobling midlertidig"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Skanner \u2026"</item>
+        <item>"Kobler til <xliff:g id="NETWORK_NAME">%1$s</xliff:g> …"</item>
+        <item>"Autentiserer med <xliff:g id="NETWORK_NAME">%1$s</xliff:g> …"</item>
+        <item>"Henter IP-adresse fra <xliff:g id="NETWORK_NAME">%1$s</xliff:g> …"</item>
+        <item>"Koblet til <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+        <item>"Avsluttet"</item>
+        <item>"Kobler fra <xliff:g id="NETWORK_NAME">%1$s</xliff:g> …"</item>
+        <item>"Frakoblet"</item>
+        <item>"Mislyktes"</item>
+        <item>"Blokkert"</item>
+        <item>"Unngår dårlig tilkobling midlertidig"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.print.ui"
+    android:versionCode="27"
+    android:versionName="1.0.027" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.print.ui.PrinterSetup"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_label__printer_setup"
+            tools:ignore="ExportedActivity" >
+            <intent-filter>
+                <action android:name="com.hp.pps.print.sdk.PRINT_SETUP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".SingleFileReceiver"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_label__print_file_receiver"
+            android:targetActivity="com.android.print.ui.PrinterSetup" >
+            <intent-filter android:icon="@drawable/ic_print_file_receiver" >
+                <action android:name="android.intent.action.SEND" />
+
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/png" />
+            </intent-filter>
+            <intent-filter android:icon="@drawable/ic_print_file_receiver" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/png" />
+                <data android:mimeType="application/pdf" />
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name=".MultiFileReceiver"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_label__print_files_receiver"
+            android:targetActivity="com.android.print.ui.PrinterSetup" >
+            <intent-filter android:icon="@drawable/ic_print_file_receiver" >
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/png" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="com.android.print.ui.PrinterSetupPreferences"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_label__settings" />
+        <activity
+            android:name="com.android.print.ui.PrinterSetupAbout"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_label__about" />
+        <activity
+            android:name="com.android.print.ui.PrinterPicker"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_label__printer_selection" />
+        <activity
+            android:name="com.android.print.ui.PrintStatus"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/activity_label__print_status" />
+
+        <service
+            android:name="com.android.print.ui.PrintJobService"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher" >
+            <intent-filter>
+                <action android:name="com.hp.pps.print.sdk.SUBMIT_JOB" />
+
+                <data android:scheme="printSetup" />
+            </intent-filter>
+        </service>
+
+        <uses-library
+            android:name="com.hp.pps.print.sdk"
+            android:required="true" />
+    </application>
+
+</manifest>

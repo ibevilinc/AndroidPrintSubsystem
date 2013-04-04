@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Application misc -->
+    <string name="app_name">Установка принтера</string>
+    <!-- Activity labels -->
+    <string name="activity_label__printer_setup">Печать</string>
+    <string name="activity_label__printer_selection">Принтеры</string>
+    <string name="activity_label__print_status">Состояние печати</string>
+    <string name="activity_label__print_file_receiver">Файл печати</string>
+    <string name="activity_label__print_files_receiver">Файлы печати</string>
+    <string name="activity_label__settings">Параметры</string>
+    <string name="activity_label__about">Сведения</string>
+    <!-- Icon content descriptions for accessibility -->
+    <string name="icon_content_description__status">Состояние принтера</string>
+    <!-- Nothing selected fragment -->
+    <string name="text_view__no_printer_selected">Коснитесь, чтобы выбрать принтер</string>
+    <string name="text_view__searching_for_previous_printer">Поиск ранее использованных принтеров…</string>
+    <!-- Navigation Tab labels -->
+    <string name="navigation_tab_label__wifi_printers">Wi-Fi</string>
+    <string name="navigation_tab_label__wireless_direct_printers">Прямой беспр.</string>
+    <!-- Wireless Direct Discovery -->
+    <string name="list_view_empty__no_wireless_direct_printers_in_range">В диапазоне действия сети нет принтеров с функцией \"Прямой беспр.\"</string>
+    <!-- Dialogs -->
+    <string name="dialog_button__try_again">Повторить</string>
+    <string name="dialog_button__choose_another">Выбрать другой</string>
+    <!-- No network printers found dialog -->
+    <string name="dialog_title__no_printers_found">Принтеры не найдены</string>
+    <string name="dialog_body__no_printers_found">Не удалось найти ни одного принтера.Убедитесь, что принтер включен и находится в сети.</string>
+    <!-- Getting printer capabilities dialog -->
+    <string name="dialog_body__obtaining_printer_capabilities">Загрузка сведений о принтере</string>
+    <!-- Preparing pring job dialog -->
+    <string name="dialog_body__preparing_print_job">Подготовка задания печати…</string>
+    <!-- No print plugins installed dialog -->
+    <string name="dialog_title__missing_plugins">ПО принтера не установлено</string>
+    <string name="dialog_body__missing_plugins">Программное обеспечение, необходимое для печати, не установлено.Перейдите в магазин приложений для вашего устройства и загрузите необходимое ПО.</string>
+    <!-- Problem with print plugin (plugin crashed or removed) -->
+    <string name="dialog_title__plugin_problem">Проблема с ПО принтера</string>
+    <string name="dialog_body__plugin_problem">Программное обеспечение принтера не отвечает.Проверьте наличие обновлений в магазине приложений для вашего устройства или свяжитесь с производителем принтера.</string>
+    <!-- Printer not supported by print plugin dialog -->
+    <string name="dialog_title__printer_not_supported">Проблема с ПО принтера</string>
+    <string name="dialog_body__printer_not_supported">Данный принтер не поддерживается программным обеспечением. Проверьте наличие обновлений в магазине приложений для вашего устройства или свяжитесь с производителем принтера.</string>
+    <!-- Wifi disabled dialog -->
+    <string name="dialog_title__wifi_disabled">Функция Wi-Fi отключена</string>
+    <string name="dialog_body__wifi_disabled">Настроить Wi-Fi сейчас?</string>
+    <!-- Wifi unconfigured dialog -->
+    <string name="dialog_title__wifi_not_configured">Функция Wi-Fi не настроена</string>
+    <string name="dialog_body__wifi_not_configured">Настроить Wi-Fi сейчас?</string>
+    <!-- Printer communication error dialog -->
+    <string name="dialog_title__printer_error">Проблема с принтером</string>
+    <string name="dialog_body__printer_error">Не удалось установить связь с принтером.</string>
+    <!-- Network Change Warning -->
+    <string name="dialog_title__switch_networks_warning">Подключиться к принтеру?</string>
+    <string name="dialog_text_view__switch_networks_warning">Подключение к принтеру напрямую может нарушить подключение устройства к Интернету.\nПродолжить?</string>
+    <string name="checkbox__do_not_show_this_again">Не показывать это сообщение</string>
+    <!-- Noting to print -->
+    <string name="dialog_title__nothing_printable_found">Материалы для печати не найдены</string>
+    <string name="dialog_body__nothing_printable_found">Этот файл не содержит элементов, которые могут быть напечатаны.</string>
+    <!-- Connecting to wireless direct printer -->
+    <string name="dialog_body__connecting_to_wireless_direct">Подключение к принтеру</string>
+    <!-- Failed to find wireless direct printer -->
+    <!-- Print job settings -->
+    <string name="print_setting_title__paper_size">Размер бумаги</string>
+    <string name="print_setting_title__color_mode">Цвет</string>
+    <string name="print_setting_title__two_sided">Двусторонняя</string>
+    <string name="print_setting_title__orientation">Ориентация</string>
+    <string name="print_setting_title__copies">Копии</string>
+    <string name="print_setting_header__print_options">ПАРАМЕТРЫ ПЕЧАТИ</string>
+    <string name="print_setting_title__show_more_settings">Показать параметры</string>
+    <string name="print_setting_title__show_less_settings">Скрыть параметры</string>
+    <string name="button_label__print">Печать</string>
+    <!-- Color Mode values -->
+    <string name="color_mode__color">Цвет</string>
+    <string name="color_mode__monochrome">Черно-белый</string>
+    <!-- Orientation values -->
+    <string name="orientation__auto">Автоматически</string>
+    <string name="orientation__portrait">Портретная</string>
+    <string name="orientation__landscape">Альбомная</string>
+    <!-- Paper Size Names -->
+    <string name="iso_a4_210x297mm" tools:ignore="UnusedResources">A4</string>
+    <string name="na_letter_8_5x11in" tools:ignore="UnusedResources">Letter</string>
+    <string name="na_index_4x6_4x6in" tools:ignore="UnusedResources">4 x 6 дюймов</string>
+    <string name="om_small_photo_100x150mm" tools:ignore="UnusedResources">10 x 15 см</string>
+    <string name="oe_l_3_5x5in" tools:ignore="UnusedResources">L</string>
+    <string name="na_index_3_5_3x5in" tools:ignore="UnusedResources">3,5 x 5 дюймов</string>
+    <string name="na_5x7_5x7in" tools:ignore="UnusedResources">5 x 7 дюймов</string>
+    <!-- Menu items -->
+    <!-- Menu items shown when a printer is selected or nothing has been selected yet -->
+    <string name="menu_item__settings">Параметры</string>
+    <string name="menu_item__about">Сведения</string>
+    <!-- Menu items shown during discovery -->
+    <string name="menu_item__refresh">Обновить</string>
+    <string name="menu_item__search">Поиск</string>
+    <!-- Menu item shown in screen for cancelling jobs -->
+    <string name="menu_item__cancel_jobs">Отмена</string>
+    <!-- Preference items -->
+    <string name="preference_title__no_plugins_installed">Подключаемые модули печати не найдены</string>
+    <string name="preference_summary__no_plugins_installed">На этом устройстве нет установленных подключаемых модулей печати.</string>
+    <!-- About preference items -->
+    <string name="preference_header__application_info">Сведения об установке принтера</string>
+    <string name="preference_title__application_version">Версия приложения</string>
+    <string name="preference_header__plugin_info">Сведения об установленном модуле печати</string>
+    <string name="preference_summary__touch_to_access_plugin_information">Коснитесь, чтобы получить подробные сведения</string>
+    <string name="preference_summary__no_plugin_information_available">Сведения недоступны</string>
+    <!-- Setting preference items -->
+    <string name="preference_header__application_settings">Параметры установки принтера</string>
+    <string name="preference_title__show_more_by_default">Дополнительно</string>
+    <string name="preference_summary__show_more_by_default">Показать все параметры печати по умолчанию</string>
+    <string name="preference_header__plugin_settings">Параметры подключаемого модуля печати</string>
+    <string name="preference_summary__touch_to_access_plugin_settings">Коснитесь, чтобы просмотреть параметры</string>
+    <string name="preference_summary__no_plugin_settings_available">Параметры недоступны</string>
+    <!-- Print status notifications -->
+    <string name="notification_ticker__now_printing">Печать…</string>
+    <string name="notification_title__now_printing">Печать…</string>
+    <string name="notification_title__print_status__cancelled">Печать отменена</string>
+    <string name="notification_title__print_status__failed">Сбой печати</string>
+    <string name="notification_title__print_status__corrupt">При отправке задания печати возникли ошибки</string>
+    <!-- Job State descriptions used in notifications -->
+    <string name="job_state_description__running__sending_page_x">Отправка страницы %1$d</string>
+    <string name="job_state_description__running__sending_page_x_of_y">Отправка страницы %1$d из %2$d</string>
+    <string name="job_state_description__complete__successful">Задание печати отправлено</string>
+    <string name="job_state_description__complete__cancelled">Задание печати отменено</string>
+    <string name="job_state_description__complete__failed">Сбой печати</string>
+    <string name="job_state_description__complete__corrupt">При отправке задания печати возникли ошибки</string>
+    <string name="job_state_description__blocked">Возникла проблема с принтером.Для продолжения печати необходимо устранить проблему.</string>
+    <!-- Print information -->
+    <!-- What to display for the printer if the printer name, model, or address are unknown -->
+    <string name="printer_name_unknown">&amp;lt;Неизвестный&amp;gt;</string>
+    <!-- What to display if the document name is not specified in the job -->
+    <string name="no_description_available">Описание недоступно</string>
+    <!-- Cancel job action -->
+    <string name="action_title__cancel_selected_jobs">Отменить выбранные задания</string>
+    <!-- Print Job State -->
+    <string name="print_job_state__unknown">Неизвестный</string>
+    <string name="print_job_state__queued">Ожидание</string>
+    <string name="print_job_state__running">Запуск</string>
+    <string name="print_job_state__blocked">Заблокировано</string>
+    <string name="print_job_state__cancelling">Отмена</string>
+    <string name="print_job_state__completed">Готово</string>
+    <!-- Printer State -->
+    <string name="printer_state__fetching">Загрузка состояния принтера…</string>
+    <string name="printer_state__ready">Готов</string>
+    <string name="printer_state__busy">Занят</string>
+    <string name="printer_state__out_of_paper">Нет бумаги</string>
+    <string name="printer_state__out_of_ink">Закончились чернила</string>
+    <string name="printer_state__out_of_toner">Закончился тонер</string>
+    <string name="printer_state__low_on_ink">Мало чернил</string>
+    <string name="printer_state__low_on_toner">Мало тонера</string>
+    <string name="printer_state__door_open">Крышка открыта</string>
+    <string name="printer_state__jammed">Замятие</string>
+    <string name="printer_state__unknown">Невозможно получить состояние принтера</string>
+    <string name="printer_state__check_printer">Проверьте принтер</string>
+</resources>

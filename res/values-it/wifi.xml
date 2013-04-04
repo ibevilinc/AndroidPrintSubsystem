@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Connetti"</string>
+    <string name="wifi_security">"Sicurezza"</string>
+    <string name="wifi_password">"Password"</string>
+    <string name="wifi_show_password">"Mostra password"</string>
+    <string name="wifi_not_in_range">"Fuori portata"</string>
+    <string name="wifi_wps_available_first_item">"WPS disponibile"</string>
+    <string name="wifi_wps_available_second_item">" (WPS disponibile)"</string>
+    <string name="wifi_secured_first_item">"Protetta con <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_secured_second_item">", protetta con <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_security_none">"Nessuna"</string>
+    <string name="wifi_disabled_generic">"Disattivata"</string>
+    <string name="wifi_unchanged">"(invariati)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Ricerca\u2026"</item>
+        <item>"Connessione\u2026"</item>
+        <item>"Autenticazione\u2026"</item>
+        <item>"Acquisizione indirizzo IP\u2026"</item>
+        <item>"Connessa"</item>
+        <item>"Sospesa"</item>
+        <item>"Disconnessione\u2026"</item>
+        <item>"Disconnessa"</item>
+        <item>"Operazione non riuscita"</item>
+        <item>"Bloccato"</item>
+        <item>"Al momento vengono evitate connessioni deboli"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Ricerca\u2026"</item>
+        <item>"Connessione a <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Autenticazione con <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Acquisizione indirizzo IP da <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Connessa a <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+        <item>"Sospesa"</item>
+        <item>"Disconnessione da <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Disconnessa"</item>
+        <item>"Operazione non riuscita"</item>
+        <item>"Bloccato"</item>
+        <item>"Al momento vengono evitate connessioni deboli"</item>
+    </string-array>
+
+</resources>

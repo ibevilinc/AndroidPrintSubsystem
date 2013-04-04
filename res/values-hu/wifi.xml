@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Kapcsolódás"</string>
+    <string name="wifi_security">"Biztonság"</string>
+    <string name="wifi_password">"Jelszó"</string>
+    <string name="wifi_show_password">"Jelszó megjelenítése"</string>
+    <string name="wifi_disabled_generic">"Letiltva"</string>
+    <string name="wifi_not_in_range">"Hatókörön kívül"</string>
+    <string name="wifi_wps_available_first_item">"WPS elérhető"</string>
+    <string name="wifi_wps_available_second_item">" (WPS elérhető)"</string>
+    <string name="wifi_secured_first_item">"<xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> védelemmel"</string>
+    <string name="wifi_secured_second_item">", <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g> védelemmel"</string>
+    <string name="wifi_security_none">"Nincs"</string>
+    <string name="wifi_unchanged">"(nem változott)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Keresés\u2026"</item>
+        <item>"Kapcsolódás…"</item>
+        <item>"Hitelesítés\u2026"</item>
+        <item>"IP-cím lekérése\u2026"</item>
+        <item>"Csatlakozva"</item>
+        <item Felfüggesztve=""></item>
+        <item>"Kapcsolat bontása\u2026"</item>
+        <item>"Nincs kapcsolat"</item>
+        <item>"Sikertelen"</item>
+        <item>"Letiltva"</item>
+        <item>"A rossz minőségű kapcsolatok átmeneti elkerülése"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Keresés\u2026"</item>
+        <item>"Csatlakozás a(z) <xliff:g id="NETWORK_NAME">%1$s</xliff:g> hálózathoz\u2026"</item>
+        <item>"Hitelesítés a(z) <xliff:g id="NETWORK_NAME">%1$s</xliff:g> hálózaton\u2026"</item>
+        <item>"IP-cím lekérése a(z) <xliff:g id="NETWORK_NAME">%1$s</xliff:g> hálózattól\u2026"</item>
+        <item>"Kapcsolódva a(z) <xliff:g id="NETWORK_NAME">%1$s</xliff:g> hálózathoz"</item>
+        <item>"Felfüggesztve"</item>
+        <item>"Kapcsolat bontása <xliff:g id="NETWORK_NAME">%1$s</xliff:g> hálózattal\u2026"</item>
+        <item>"Nincs kapcsolat"</item>
+        <item>"Sikertelen"</item>
+        <item>"Letiltva"</item>
+        <item>"A rossz minőségű kapcsolatok átmeneti elkerülése"</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Подключить"</string>
+    <string name="wifi_security">"Защита"</string>
+    <string name="wifi_password">"Пароль"</string>
+    <string name="wifi_show_password">"Показать пароль"</string>
+    <string name="wifi_not_in_range">"Недоступна"</string>
+    <string name="wifi_wps_available_first_item">"Поддерживает WPS"</string>
+    <string name="wifi_wps_available_second_item">" (доступно WPS)"</string>
+    <string name="wifi_secured_first_item">"Защита <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_secured_second_item">", защита <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_security_none">"Нет"</string>
+    <string name="wifi_disabled_generic">"Отключено"</string>
+    <string name="wifi_unchanged">"(без изменений)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Поиск\u2026"</item>
+        <item>"Подключение\u2026"</item>
+        <item>"Аутентификация\u2026"</item>
+        <item>"Получение IP-адреса\u2026"</item>
+        <item>"Подключено"</item>
+        <item>"Приостановлено"</item>
+        <item>"Отключение\u2026"</item>
+        <item>"Нет подключения"</item>
+        <item>"Сбой"</item>
+        <item>"Заблокировано"</item>
+        <item>"Временно избегать плохого соединения"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Поиск\u2026"</item>
+        <item>"Соединение с сетью <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Аутентификация в сети <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Получение IP-адреса от <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Подключено к <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+        <item>"Приостановлено"</item>
+        <item>"Отключение от <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Нет подключения"</item>
+        <item>"Сбой"</item>
+        <item>"Заблокировано"</item>
+        <item>"Временно избегать плохого соединения"</item>
+    </string-array>
+
+</resources>

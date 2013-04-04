@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+        
+    <!-- About keys -->
+    <string name="about_key__plugin_info" translatable="false">about_key__plugin_info</string>
+    <string name="about_key__application_version" translatable="false">about_key__application_version</string>
+
+    <!-- Application settings keys -->
+    <string name="settings_key__show_more" translatable="false">setting__show_more_settings__key</string>
+    <string name="settings_key__plugin_settings" translatable="false">settings_key__plugin_settings</string>
+    <string name="settings_key__network_change_warning" translatable="false">settings_key__network_change_warning</string>
+    <string name="settings_key__keep_temporary_files" translatable="false">settings_key__keep_temporary_files</string>
+    <string name="settings_key__app_settings" translatable="false">settings_key__app_settings</string>
+    
+    <!-- Debug version strings -->
+    <string name="preference_title__keep_files" translatable="false">Keep files</string>
+    <string name="preference_summary__keep_files" translatable="false">Don\'t delete temporary files when print job finishes</string>
+    
+    <string name="print_service_wakelock" translatable="false">PrintService</string>
+
+    <!-- Copies button text and defaults -->
+    <string name="default_num_copies" translatable="false">1</string>
+    <string name="button_num_copies_increment" translatable="false">+</string>
+    <string name="button_num_copies_decrement" translatable="false">-</string>
+    <integer name="min_num_copies" translatable="false">1</integer>
+    <integer name="max_num_copies" translatable="false">99</integer>
+    
+    <!-- Used Printer DB -->
+    <string name="used_printer_database_name" translatable="false">UsedPrinters</string>
+    <integer name="used_printer_database_version" translatable="false">1</integer>
+    <integer name="max_used_printer_entries" translatable="false">10</integer>
+    <integer name="used_printer_search_timeout" translatable="false">2666</integer>
+
+    <!-- Wireless Direct Information -->
+    <string-array name="wireless_direct_prefixes" translatable="false">
+        <item>-Print-</item>
+    </string-array>
+    
+    <!-- Packges allowed to preselect -->
+    <string-array name="packages_allowed_to_preselect" translatable="false">
+        <item>com.hp.printercontrol</item>
+        <item>com.hp.pps.printsample</item>
+    </string-array>
+    <string name="bundle_key__preselected_printer_address" translatable="false">org.androidprinting.intent.extra.PRINTER</string>
+    <string name="bundle_key__preselected_printer_name" translatable="false">org.androidprinting.intent.extra.PRINTERNAME</string>
+    
+
+    <!-- Printer Setup service strings -->
+    <string name="printer_setup_uri_scheme" translatable="false">printSetup</string>
+    <string name="printer_setup_handler_thread_id" translatable="false">PrintJobService</string>
+    <string name="printer_setup_action__submit_job" translatable="false">com.hp.pps.print.sdk.SUBMIT_JOB</string>
+
+    <!-- wPrint paper size values -->
+    <string name="wprint_paper_size_a4" translatable="false">iso_a4_210x297mm</string>
+    <string name="wprint_paper_size_letter" translatable="false">na_letter_8.5x11in</string>
+    <string name="wprint_paper_size_4x6" translatable="false">na_index-4x6_4x6in</string>
+    <string name="wprint_paper_size_10x15cm" translatable="false">om_small-photo_100x150mm</string>
+    <string name="wprint_paper_size_l" translatable="false">oe_l_3.5x5in</string>
+    <string name="wprint_paper_size_3_5x5" translatable="false">na_index-3.5_3x5in</string>
+    <string name="wprint_paper_size_5x7" translatable="false">na_5x7_5x7in</string>
+    
+    <string name="default_large_media">@string/wprint_paper_size_letter</string>
+    <string name="default_small_media">@string/wprint_paper_size_4x6</string>
+
+    <!-- Application default timeout values -->
+    <integer name="default_wifi_search_timeout" translatable="false">10000</integer>
+    <integer name="failed_wprint_op_timeout" translatable="false">10000</integer>
+    <integer name="min_runnable_delay" translatable="false">1000</integer>
+    <integer name="service_quit_delay" translatable="false">60000</integer>
+    <integer name="service_bind_timeout" translatable="false">1000</integer>
+    <!-- Combo scans can take 5-6s to complete - set to 10s -->
+    <integer name="wifi_rescan_interval" translatable="false">10000</integer>
+    <integer name="wireless_direct_search_timeout" translatable="false">3000</integer>
+
+    <!-- Application settings defaults -->
+    <bool name="show_more_default" translatable="false">false</bool>
+    <bool name="show_network_change_warning_default" translatable="false">true</bool>
+    <bool name="default_value__key_temporary_files" translatable="false">false</bool>
+
+    <!-- WiFi security ids -->
+    <item name="wifi_security_type_none" translatable="false" type="id"/>
+    <item name="wifi_security_type_wep" translatable="false" type="id"/>
+    <item name="wifi_security_type_psk" translatable="false" type="id"/>
+    <item name="wifi_security_type_eap" translatable="false" type="id"/>
+
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep" translatable="false">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa" translatable="false">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2" translatable="false">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2" translatable="false">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic" translatable="false">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap" translatable="false">802.1x</string>
+
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep" translatable="false">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa" translatable="false">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2" translatable="false">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2" translatable="false">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic" translatable="false">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap" translatable="false">802.1x EAP</string>
+
+    <!-- Application bundle keys -->
+    <item name="bundle_key__selected_printer_plugin_package" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_supported_plugin_packages" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_name" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_address" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_ssid" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_model" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_bonjour_name" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_bonjour_domain_name" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_hostname" translatable="false" type="id"/>
+    <item name="bundle_key__current_selected_printer" translatable="false" type="id"/>
+    <item name="bundle_key__current_printer_capabilities" translatable="false" type="id"/>
+    <item name="bundle_key__current_job_settings" translatable="false" type="id"/>
+    <item name="bundle_key__dialog_request_number" translatable="false" type="id"/>
+    <item name="bundle_key__printer_picker_tab" translatable="false" type="id"/>
+    <item name="bundle_key__printer_setup_bundle" translatable="false" type="id"/>
+    <item name="bundle_key__launch_printer_selection" translatable="false" type="id"/>
+    <item name="bundle_key__dialog_request_name" translatable="false" type="id"/>
+    <item name="bundle_key__selected_printer_info" translatable="false" type="id"/>
+    <item name="bundle_key__cancel_job" translatable="false" type="id"/>
+    <item name="bundle_key__cancel_all_jobs" translatable="false" type="id"/>
+    <item name="bundle_key__job_status_list" translatable="false" type="id"/>
+    <item name="bundle_key__print_option_num_copies" translatable="false" type="id"/>
+    <item name="bundle_key__print_option_show_more" translatable="false" type="id"/>
+    <item name="bundle_key__print_option_two_sided" translatable="false" type="id"/>
+    <item name="bundle_key__print_option_color_mode" translatable="false" type="id"/>
+    <item name="bundle_key__print_option_paper_size" translatable="false" type="id"/>
+    <item name="bundle_key__print_option_orientation" translatable="false" type="id"/>
+
+    <!-- Application IDs for stuff -->
+    <!-- Fragment IDs -->
+    <item name="printer_setup_dialog_get_caps_progress" translatable="false" type="id"/>
+    <item name="printer_setup_dialog_plugin_op_timeout" translatable="false" type="id"/>
+    <item name="printer_setup_dialog_preparing_print" translatable="false" type="id"/>
+    <item name="printer_setup_dialog_nothing_to_print" translatable="false" type="id"/>
+    <item name="printer_picker_fragment_wifi" translatable="false" type="id"/>
+    <item name="printer_picker_fragment_wireless_direct" translatable="false" type="id"/>
+    <item name="fragment_id__data_holder" translatable="false" type="id"/>
+        
+    <!-- Dialog IDs -->
+    <item name="printer_picker_dialog_no_wifi" translatable="false" type="id"/>
+    <item name="printer_picker_dialog_no_wifi_printers_found" translatable="false" type="id"/>
+    <item name="printer_picker_dialog_connect_to_printer" translatable="false" type="id"/>
+    <item name="printer_picker_dialog_wifi_not_configured" translatable="false" type="id"/>
+    <item name="printer_picker_dialog_network_change_warning" translatable="false" type="id"/>
+    <item name="dialog_id__plugin_failure" translatable="false" type="id"/>
+    <item name="dialog_id__no_plugins" translatable="false" type="id"/>
+    <item name="dialog_id__printer_not_supported" translatable="false" type="id"/>
+    <item name="dialog_id__connecting_to_wireless_direct" translatable="false" type="id"/>
+    <item name="dialog_id__failed_to_connect_to_wireless_direct" translatable="false" type="id"/>
+    <item name="dialog_id__multiple_printers_on_wireless_direct_network" translatable="false" type="id"/>
+    <item name="dialog_id_could_not_find_wireless_direct_printer" translatable="false" type="id"/>
+    
+    <!-- misc IDs -->
+    <item name="start_activity_id_printer_selection" translatable="false" type="id"/>
+    
+    <!-- Print Service messages -->
+    <item name="print_service_msg__quit" translatable="false" type="id"/>
+    <item name="print_service_msg__add_job" translatable="false" type="id"/>
+    <item name="print_service_msg__run_job" translatable="false" type="id"/>
+    <item name="print_service_msg__job_status" translatable="false" type="id"/>
+    <item name="print_service_msg__cancel_job" translatable="false" type="id"/>
+    <item name="print_service_msg__cancel_all_jobs" translatable="false" type="id"/>
+    <item name="print_service_msg__cancel_result_ok" translatable="false" type="id"/>
+    <item name="print_service_msg__cancel_result_failed" translatable="false" type="id"/>
+    <item name="print_service_msg__cancel_all_result_ok" translatable="false" type="id"/>
+    <item name="print_service_msg__cancel_all_result_failed" translatable="false" type="id"/>
+    <item name="print_service_msg__job_start_failed" translatable="false" type="id"/>
+    <item name="print_service_msg__plugin_connected" translatable="false" type="id"/>
+    <item name="print_service_msg__plugin_disconected" translatable="false" type="id"/>
+    <item name="print_service_msg__plugin_connect_failed" translatable="false" type="id"/>
+    <item name="print_service_printing_notification" translatable="false" type="id"/>
+    <item name="print_service_blocking_print_notification" translatable="false" type="id"/>
+    <item name="print_service_job_result_notification" translatable="false" type="id"/>
+    <!-- Print Service notification ids -->
+    <item name="notification_request_show_job_status" translatable="false" type="id"/>
+
+</resources>

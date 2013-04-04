@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+(c) Copyright 2013 Hewlett-Packard Development Company, L.P.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="wifi_connect">"Yhdistä"</string>
+    <string name="wifi_security">"Suojaus"</string>
+    <string name="wifi_password">"Salasana"</string>
+    <string name="wifi_show_password">"Näytä salasana"</string>
+    <string name="wifi_disabled_generic">"Pois käytöstä"</string>
+    <string name="wifi_not_in_range">"Ei kantoalueella"</string>
+    <string name="wifi_wps_available_first_item">"WPS käytettävissä"</string>
+    <string name="wifi_wps_available_second_item">" (WPS käytettävissä)"</string>
+    <string name="wifi_secured_first_item">"Salaus: <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_secured_second_item">", salaus: <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_security_none">"Ei mitään"</string>
+    <string name="wifi_unchanged">"(ei muutettu)"</string>
+
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Etsitään\u2026"</item>
+        <item>"Yhdistetään…"</item>
+        <item>"Varmennetaan…"</item>
+        <item>"Haetaan IP-osoitetta\u2026"</item>
+        <item>"Yhdistetty"</item>
+        <item>"Pidätetty"</item>
+        <item>"Katkaistaan yhteyttä\u2026"</item>
+        <item>"Yhteys katkaistu"</item>
+        <item>"Epäonnistui"</item>
+        <item>"Estetty"</item>
+        <item>"Vältetään huonoa yhteyttä tilapäisesti"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Etsitään\u2026"</item>
+        <item>"Yhdistetään verkkoon <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Varmennetaan verkkoon <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Haetaan IP-osoitetta verkosta <xliff:g id="NETWORK_NAME">%1$s</xliff:g>\u2026"</item>
+        <item>"Yhdistetty verkkoon <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+        <item>"Pidätetty"</item>
+        <item>"Katkaistaan yhteys verkosta <xliff:g id="NETWORK_NAME">%1$s</xliff:g>…"</item>
+        <item>"Yhteys katkaistu"</item>
+        <item>"Epäonnistui"</item>
+        <item>"Estetty"</item>
+        <item>"Vältetään huonoa yhteyttä tilapäisesti"</item>
+    </string-array>
+
+</resources>
